@@ -46,24 +46,47 @@
 				
 				
 				<fieldset class="form-group">
-					<label>Nombre de paciente</label> <input type="text" value="<c:out value='${usuario.nombre }' /> " class="form-control" name="nombre" required="required">
+					<label>Documento de paciente</label> <input type="text" value="<c:out value='${paciente.documento }' /> " class="form-control" name="documento" required="required">
 				</fieldset>
 				
 				<fieldset class="form-group">
-					<label>Nombre de paciente</label> <input type="text" value="<c:out value='${usuario.nombre }' /> " class="form-control" name="nombre" required="required">
+					<label>Nombre de paciente</label> <input type="text" value="<c:out value='${paciente.nombre }' /> " class="form-control" name="nombre" required="required">
 				</fieldset>
+				
+				
 				<fieldset class="form-group">
-					<label>Nombre de paciente</label> <input type="text" value="<c:out value='${usuario.nombre }' /> " class="form-control" name="nombre" required="required">
+					<label>Apellido de paciente</label> <input type="text" value="<c:out value='${paciente.apellido }' /> " class="form-control" name="apellido" required="required">
 				</fieldset>
 				
 				<fieldset class="form-group">
-					<label>Email de Usuario</label> <input type="text" value="<c:out value='${usuario.email }' /> " class="form-control" name="email" required="required">
+					<label>Email de paciente</label> <input type="text" value="<c:out value='${paciente.email }' /> " class="form-control" name="email" required="required">
 				</fieldset>
 				
 				<fieldset class="form-group">
-					<label>Pais de Usuario</label> <input type="text" value="<c:out value='${usuario.pais }' /> " class="form-control" name="pais" required="required">
+					<label>Genero de paciente</label> <input type="text" value="<c:out value='${paciente.genero }' /> " class="form-control" name="genero" required="required">
 				</fieldset>
 				
+				<fieldset class="form-group">
+					<label>Fecha de paciente</label> <input type="text" value="<c:out value='${paciente.fecha }' /> " class="form-control" name="fecha" required="required">
+				</fieldset>
+				
+				
+				<fieldset class="form-group">
+					<label>Telefono de paciente</label> <input type="text" value="<c:out value='${paciente.telefono }' /> " class="form-control" name="telefono" required="required">
+				</fieldset>
+				
+				
+				<fieldset class="form-group">
+					<label>Direccion de paciente</label> <input type="text" value="<c:out value='${paciente.direccion }' /> " class="form-control" name="direccion" required="required">
+				</fieldset>
+				
+				<fieldset class="form-group">
+					<label>Peso de paciente</label> <input type="text" value="<c:out value='${paciente.peso }' /> " class="form-control" name="peso" required="required">
+				</fieldset>
+				
+				<fieldset class="form-group">
+					<label>Estatura de paciente</label> <input type="text" value="<c:out value='${paciente.estatura }' /> " class="form-control" name="estatura" required="required">
+				</fieldset>|
 				<br>
 				<button type="submit" class="btn btn-success">Guardar</button>
 				</form>
